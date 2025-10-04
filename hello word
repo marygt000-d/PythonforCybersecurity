@@ -1,0 +1,12 @@
+#!/usr/bin/env python 3
+# A simple "Hello Word"
+# Created by Mary Garcia 9/29
+#ask user for a name 
+name = input("what is your name?")
+# print hello to the user
+print ("Hello"+ name)
+print ("hello {0}".format(name))
+print ("Hello",name)
+print (f'Hello {name}')
+message = "Hello" + name
+print (message)
